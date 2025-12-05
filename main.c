@@ -3,10 +3,8 @@
 int main() {
     Airport* db = load_from_file("flights.txt");
     int choice;
-    
     while (1) {
         print_menu();
-        
         if (scanf("%d", &choice) != 1) {
             printf("err\n");
             clear_input_buffer();
