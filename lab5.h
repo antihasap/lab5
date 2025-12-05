@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include <time.h>
 
 typedef struct Flight {
     int id;
@@ -40,5 +39,6 @@ void edit_flight(Airport* db, int id, char* flight_number,
 void print_details(Flight* flight);
 void clear_input_buffer();
 void print_menu();
+
 
 #endif
